@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Helvetica Neue', sans-serif;
+}
+
+body {
+  color: #222;
+  background: #faf9f7;
+  line-height: 1.6;
+}
+
+.hero {
+  height: 100vh;
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+              url("https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9") center/cover;
+  display: flex;
+  align-items: center;
+  padding: 40px;
+}
+
+.hero-content {
+  max-width: 600px;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero h1 span {
+  color: #e6c9a8;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 28px;
+  background: #e6c9a8;
+  color: #222;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 30px;
+}
+
+.btn.dark {
+  background: #222;
+  color: white;
+}
+
+section {
+  padding: 80px 40px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2rem;
+}
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  text-align: center;
+  border-radius: 12px;
+}
+
+.card.highlight {
+  background: #e6c9a8;
+  font-weight: bold;
+}
+
+.why ul {
+  list-style: none;
+  max-width: 600px;
+  margin: auto;
+}
+
+.why li {
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+}
+
+.review {
+  background: white;
+  padding: 25px;
+  margin: 15px auto;
+  max-width: 700px;
+  border-left: 5px solid #e6c9a8;
+}
+
+.cta {
+  background: #e6c9a8;
+  text-align: center;
+}
+
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 40px;
+}
